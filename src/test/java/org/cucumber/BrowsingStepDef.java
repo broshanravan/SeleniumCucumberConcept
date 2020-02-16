@@ -3,10 +3,10 @@ package org.cucumber;
 import cucumber.api.PendingException;
 import cucumber.api.java8.En;
 
-public class BrowsingTest implements En {
+public class BrowsingStepDef implements En {
 
 
-    public BrowsingTest() {
+    public BrowsingStepDef() {
 
         Given("^I am on the home of http://www\\.softpost\\.org$", () -> {
             // Write code here that turns the phrase above into concrete actions

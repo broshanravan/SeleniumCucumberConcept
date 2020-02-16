@@ -3,7 +3,7 @@
 
      Scenario Outline: Check the title of websites.
        Given I am on the home of <website>
-       Then I should see that title contaild <word>
+       Then I should see that title contained <word>
 
      Examples: This is a test data
        |website                 |word|

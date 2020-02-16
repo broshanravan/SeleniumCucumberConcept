@@ -6,7 +6,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 
-public class BarCodeScan {
+public class BarCodeScanStepDef {
 
     WebDriver driver;
     Checkout checkout = Checkout.getInstance();

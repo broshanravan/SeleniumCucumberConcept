@@ -11,13 +11,10 @@ Feature: login feature
     Given user inserts username
     And user inserts password
     And users clicks log in button
+
     When username and password are valid
     Then the login should be successful
 
-  Scenario: unsuccessful login
-    Given user inserts username
-    And user inserts password
-    And users clicks log in button
     When username or password are invalid
     Then the login should be unsuccessful
 
