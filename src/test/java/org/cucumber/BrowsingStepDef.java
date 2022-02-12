@@ -16,6 +16,8 @@ public class BrowsingStepDef implements En {
 
         });
 
+        
+
         Then("^I should see that title contaild tutorials$", () -> {
             // Write code here that turns the phrase above into concrete actions
             System.out.println("Brows Tester Then");
